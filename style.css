@@ -1,0 +1,90 @@
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 5px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+  body{
+    background-color: #ccc;
+    
+  }
+
+  main {
+    margin: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 150px;
+    border-radius: 5px solid;
+    background: #fff;
+}
+
+ ol {
+    margin: auto;
+    font-size: 15px;
+    font: 1em sans-serif;
+ }
+
+
+  .author{
+    text-align: left;
+    width: 167;
+    height: 60;
+    font: 1.2em sans-serif;
+    margin-right: 500px;
+    color: #cfcfcf;
+ }
+
+ .main p{
+    text-align: left;
+    width: 20;
+    height: 30;
+    font: 1.1em sans-serif;
+ }
+
+ .main .messagesheader{
+  text-align: center;
+ }
+
+ /* Navbar links */
+ .topnav a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .article .messages{
+    font: 1em sans-serif;
+    font-size: 1.5pxpx;
+  }
